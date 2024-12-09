@@ -242,7 +242,7 @@ function Enemy:remove()
             self.physics.body:destroy()
 
 
-        table.remove(ActiveEnemys,i)
+        table.remove(ActiveEnemys, instance)
 
             return true
         else
